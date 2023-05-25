@@ -1,0 +1,22 @@
+<div class="result-container">
+    <div class="result-col">
+        <h2>IP ADDRESS</h2>
+        <!-- <p>192.212.174.101</p> -->
+        <p>{{ipDetails.ip}}</p>
+    </div>
+    <div class="result-col">
+        <h2>LOCATION</h2>
+        <!-- <p>Brooklyn, NY 10001</p> -->
+        <p>{{getAddress()}}</p>
+    </div>
+    <div class="result-col">
+        <h2>TIMEZONE</h2>
+        <!-- <p>UTC -05:00</p> -->
+        <p>{{ipDetails.time_zone.abbreviation}} {{getTzOffset()}}</p>
+    </div>
+    <div class="result-col">
+        <h2>ISP</h2>
+        <!-- <p>SpaceX</p> -->
+        <p>{{ipDetails.company.domain}}</p>
+    </div>
+</div>
