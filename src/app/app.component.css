@@ -2,7 +2,6 @@
 .header {
     position: relative;
     height: 40%;
-    background-image: url('/assets/pattern-bg-desktop.png');
     background-size: cover;
     padding: 2rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
