@@ -26,7 +26,7 @@ import { trigger, state, style, animate, transition } from '@angular/animations'
 })
 export class AppComponent {
   ipDetails? : IpDetails;
-  ip = '94.27.148.119';
+  ip = '';
   @ViewChild('map') map!: MapComponent;
   error = false;
   constructor(private ipService : IpService) {}
